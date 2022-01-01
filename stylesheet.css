@@ -1,0 +1,99 @@
+:root {
+  --main: #21e484;
+  --secondary: #0f1527;
+  --background: #959698;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 2vw;
+}
+/*start of the header*/
+header {
+  background-color: var(--main);
+  max-width: 100vw;
+  height: 10vh;
+  display: flex;
+  padding: 1px 10px;
+}
+#nav {
+  list-style-type: none;
+  text-transform: capitalize;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-self: flex-end;
+  word-wrap: break-word;
+  margin: 0 auto 0 auto;
+}
+#nav li {
+  display: inline-block;
+  padding: 20px 15px;
+}
+#nav li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 10vh 20px;
+  color: var(--secondary);
+}
+#nav li a:hover {
+  box-shadow: inset 2px -4px 2px #bbc7a415;
+  background-color: white;
+  color: var(--main);
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-family: "shizuru", sans-serif;
+  letter-spacing: 5px;
+  margin: 10px;
+  color: var(--secondary);
+}
+div.logo:hover {
+  font-size: 1.8em;
+}
+/* end of the header*/
+/*start of the main*/
+
+main {
+  height: calc(90vh - 20vh);
+  background: white;
+  margin: 0;
+  display: flex;
+}
+main div {
+  background-color: white;
+  float: left;
+  padding: 4em;
+  min-width: 50%;
+  padding-right:0 ;
+}
+
+img {
+  width: 40vw;
+  float: right;
+  margin-left: 20vw;
+  padding-left: 0;
+
+}
+.hello {
+  font-size: 4em;
+  font-weight: bold;
+  font-family: "Moon Dance", cursive;
+  color: var(--main);
+  text-transform: uppercase;
+}
+.txt {
+    font-size: 1.8em;
+}
+/*end of the main*/
+
+/* start of the footer*/
+footer {
+  background-color: var(--main);
+  max-width: 100vw;
+  height: 10vh;
+  padding: 10vh 10vh 10vh 0vh;
+  text-align: center;
+}
+/* end of the footer*/
